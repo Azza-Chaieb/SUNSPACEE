@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "association_profils",
+  "info": {
+    "singularName": "association-profil",
+    "pluralName": "association-profils",
+    "displayName": "association_profil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
