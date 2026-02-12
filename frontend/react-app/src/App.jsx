@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // src/App.jsx
 import { useState, useEffect } from "react";
 import Scene from "./components/Scene";
@@ -362,3 +363,22 @@ function App() {
 }
 
 export default App;
+=======
+import { useEffect } from "react";
+import Scene from "./components/Scene";
+import { requestNotificationPermission } from "./services/notificationService";
+
+function App() {
+  useEffect(() => {
+    requestNotificationPermission();
+  }, []);
+
+  return (
+    <div style={{ width: "100vw", height: "100vh" }}>
+      <Scene />
+    </div>
+  );
+}
+
+export default App;
+>>>>>>> d3d36416f680a4a5641a8245a6b36dc5482fa986

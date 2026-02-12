@@ -4,7 +4,7 @@
   "info": {
     "singularName": "admin-profil",
     "pluralName": "admin-profils",
-    "displayName": "admin_profile"
+    "displayName": "admin_profil"
   },
   "options": {
     "draftAndPublish": true

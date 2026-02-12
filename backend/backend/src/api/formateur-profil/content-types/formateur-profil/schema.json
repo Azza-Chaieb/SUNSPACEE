@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formateur_profils",
+  "info": {
+    "singularName": "formateur-profil",
+    "pluralName": "formateur-profils",
+    "displayName": "formateur_profil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "specialite": {
+      "type": "string"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

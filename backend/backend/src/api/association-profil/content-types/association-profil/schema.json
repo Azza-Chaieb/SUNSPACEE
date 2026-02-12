@@ -4,7 +4,7 @@
   "info": {
     "singularName": "association-profil",
     "pluralName": "association-profils",
-    "displayName": "association_profile"
+    "displayName": "association_profil"
   },
   "options": {
     "draftAndPublish": true
